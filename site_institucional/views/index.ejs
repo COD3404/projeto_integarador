@@ -1,0 +1,40 @@
+<%- include('partials/header.ejs') %>
+    <%- include('partials/navbar.ejs') %>
+
+<main>
+    <section class="hero">
+        <div class="hero-conteudo">
+            <p class="eyebrow">TECNOLOGIA QUE MOVE NEGÓCIOS</p>
+            <h1>Ideias inteligentes para um <span>futuro digital.</span></h1>
+            <p class="hero-texto">A KernelPanic transforma desafios em soluções simples, modernas e eficientes para empresas que querem crescer.</p>
+            <div class="hero-acoes">
+                <a class="botao botao-principal" href="#servicos">Conheça nossos serviços</a>
+                <a class="botao botao-outline" href="#sobre">Saiba mais <span>→</span></a>
+            </div>
+        </div>
+        <div class="hero-imagem">
+            <img src="/images/wall.png" alt="Profissional trabalhando com tecnologia">
+            <div class="hero-card"><strong>Seu sucesso</strong><span>começa aqui</span></div>
+        </div>
+    </section>
+
+    <section class="marcas"><span>Confiam na KernelPanic</span><strong>STARTUP</strong><strong>AgroELo</strong><strong>MarketFlow</strong><strong>VERTEX</strong></section>
+
+    <section id="servicos" class="secao servicos">
+        <div class="cabecalho-secao"><div><p class="eyebrow">COMO PODEMOS AJUDAR</p><h2>Soluções pensadas<br>para o seu negócio.</h2></div><p>Do planejamento à execução, oferecemos tecnologia com propósito para acelerar seus resultados.</p></div>
+        <div class="cards-servicos">
+            <article class="card-servico"><span class="icone">⌘</span><h3>Desenvolvimento web</h3><p>Sites e sistemas rápidos, responsivos e preparados para evoluir junto com sua empresa.</p><a href="/servicos">Conhecer serviço →</a></article>
+            <article class="card-servico destaque"><span class="icone">✦</span><h3>Experiências digitais</h3><p>Interfaces intuitivas que aproximam marcas e pessoas em todos os dispositivos.</p><a href="/servicos">Conhecer serviço →</a></article>
+            <article class="card-servico"><span class="icone">↗</span><h3>Estratégia e inovação</h3><p>Orientação técnica para transformar oportunidades em resultados sustentáveis.</p><a href="/servicos">Conhecer serviço →</a></article>
+        </div>
+    </section>
+
+    <section id="sobre" class="sobre">
+        <div class="sobre-imagem"><img src="/images/wall.png" alt="Equipe da NexaTech"></div>
+        <div class="sobre-conteudo"><p class="eyebrow">SOBRE A NEXATECH</p><h2>Mais que tecnologia.<br><span>Parceria para crescer.</span></h2><p>Somos uma equipe apaixonada por criar soluções digitais que fazem sentido. Unimos criatividade, estratégia e desenvolvimento para entregar experiências que geram valor de verdade.</p><a class="botao botao-principal" href="/perfil">Conheça nossa história</a></div>
+    </section>
+
+    <section id="contato" class="contato"><p class="eyebrow">VAMOS CONVERSAR?</p><h2>Seu próximo projeto começa aqui.</h2><a class="botao botao-claro" href="mailto:contato@nexatech.com.br">Entrar em contato →</a></section>
+</main>
+
+<%- include('partials/footer.ejs') %>
