@@ -31,6 +31,12 @@ app.listen(port, (error) => {
     console.log(`Ocorreu um erro ao iniciar o servidor. Erro: ${error}`);
     //Caso haja sucesso
   } else {
-    console.log(`Servidor iniciado com sucesso em: http://localhost:${port}`);
+      if(port === 8080){
+        console.log(`Servidor iniciado com sucesso em: http://localhost:${port}`);
+      }
+      else {
+        console.log(`Deploy carregado com sucesso!`);
+      }
+    
   }
 });
