@@ -24,7 +24,7 @@ app.get("/servicos", (req, res) => {
 });
 
 //Iniciando o servidor na porta 8080
-const port = 8080;
+const port = process.env.PORT || 8080;
 app.listen(port, (error) => {
   //Tratando erros de inicialização
   if (error) {
